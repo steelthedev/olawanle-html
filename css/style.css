@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+:root{
+    --main-color:#0A203B;
+    --secondary-color:#FFF200;
+}
+
+
+body{
+    color: #000;
+}
+
+.nav-bar{
+    background:var(--main-color);
+  
+}
+
+ .nav-bar .brand{
+    text-decoration: none;
+    color:var(--secondary-color);
+    font-size: 2rem;
+}
+
+.nav-bar .brand:hover{
+    color: #111;
+}
+
+.nav-bar ul li a{
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin: 7px;
+}
+
+
+
+
+
+
+/*hero*/
+
+.hero{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+    background-position: center center;
+    position: relative;
+}
+
+.hero .row{
+    min-height: 800px;
+    height: 100vh;
+   
+}
+
+
+.hero .row h2{
+    font-size: 3.2rem;
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.hero .row p{
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+
+
+.overlay-hero{
+    background: #1060FF;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: .2;
+}
+
+.hero .row .g-btn , .c-btn{
+    padding: 20px;
+    color: #fff;
+    background:var(--main-color);
+    border:3px solid transparent;
+    border-radius: 0px;
+    font-size: 1.3rem;
+    margin: 10px;
+    transition: .5s;
+
+}
+
+.hero .row .g-btn:hover{
+    background: transparent;
+    border: 1px solid #111;
+}
+
+
+.hero .row .c-btn{
+    background: transparent;
+    border: 1px solid #111;
+    color: #fff;
+}
+
+.hero .row .c-btn:hover{
+    background: var(--main-color);
+}
+
+/* about */
+
+.about{
+    padding: 60px 0;
+    background: #fff;
+  
+}
+
+.about img{
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: .5s;
+    width: 100%;
+}
+
+.about img:hover{
+    transform: scale(1.03);
+}
+
+.about h2 , .services h2 , .book-display h2 , .contact h2{
+    padding: 10px;
+    color: var(--main-color);
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.about .about-words p{
+    color: #111;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+/*services*/
+
+.services{
+    padding: 60px 0;
+    position: relative;
+}
+
+
+.services .s-single{
+    padding: 20px;
+    border: 3px solid transparent;
+    background: #f2f2f2;
+    height: 100%;
+}
+
+.services .s-single .s-fa{
+    font-size: 3.5rem;
+    color: var(--main-color);
+
+}
+
+.services .s-single .s-words {
+    padding: 7px;
+ 
+}
+
+.services .s-single .s-words p{
+    font-size: 1.2rem;
+    color: #111;
+}
+
+.s-btn{
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 0;
+    font-size: 2rem;
+    color: var(--main-color);
+    transition: .5s;
+    
+    
+}
+
+.s-btn:hover{
+
+    color: var(--main-color);
+}
+
+.services .s-line{
+    width:100px;
+    height: 3px;
+    position: absolute;
+    background: var(--main-color);
+}
+
+/*display*/
+
+
+.book-display{
+    padding: 60px 0;
+    background: var(--main-color);
+}
+
+.book-display h2{
+    color: #fff;
+}
+
+.book-display p{
+    padding: 7px;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.b-btn{
+    color: #fff;
+    background:;
+    padding: 20px;
+}
+
+.blog{
+    padding: 60px 0;
+}
+
+.blog .blog-single{
+    padding: 7px;
+}
+
+.blog .blog-single .b-title{
+    padding: 10px;
+   font-weight: bolder;
+   font-size: 1.8rem;
+   color: #111;
+}
+
+.blog .blog-single .date{
+    padding: 7px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.blog .blog-single .words{
+    padding: 2px;
+}
+
+.blog .blog-single .words p{
+    font-size: 1.2rem;
+    color: #111;
+
+}
+
+.blog-single a{
+    color: #111;
+    margin-bottom: 4px solid #111;
+    font-size: 1.1rem;
+    text-decoration: none;
+
+}
+
+/*contact*/
+
+
+.contact{
+    padding: 60px 0;
+    background: #f2f2f2;
+}
+
+.c-icon{
+    padding: 10px;
+}
+
+.c-icon .fa{
+    font-size: 2rem;
+    margin-top: 25px;
+    padding: 40px;
+    border-radius: 50%;
+    background: var(--main-color);
+    color: #fff;
+}
+
+.c-icon h3{
+    color: var(--main-color);
+    font-size: 2rem;
+}
+
+.c-icon span{
+    color: #111;
+    font-size: 1.2rem;
+}
+
+.contact .c-btn{
+    color: #fff;
+}
+
+.contact .c-btn:hover{
+    color: #fff;
+    background:#111;
+}
+
+/*footer*/
+
+.footer{
+    padding: 60px 0;
+    background: var(--main-color);
+    color: #fff;
+    font-size: 1.2rem;
+}
