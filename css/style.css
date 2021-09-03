@@ -1,8 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-
-}
 
 :root{
     --main-color:#0A203B;
@@ -124,7 +119,7 @@ body{
     transform: scale(1.03);
 }
 
-.about h2 , .services h2 , .book-display h2 , .contact h2{
+.about h2 , .services h2 , .book-display h2 , .contact h2 , .book h2{
     padding: 10px;
     color: var(--main-color);
     font-size: 2.5rem;
@@ -225,7 +220,7 @@ body{
 
 .b-btn{
     color: #fff;
-    background:;
+    
     padding: 20px;
 }
 
@@ -315,4 +310,30 @@ body{
     background: var(--main-color);
     color: #fff;
     font-size: 1.2rem;
+}
+
+
+.book{
+    padding: 60px 0;
+}
+
+
+.book .book-single img{
+    width:100%;
+    height:400px;
+}
+
+.book p{
+    font-size: 1.1rem;
+    color: #111;
+}
+
+.book .book-single .btn{
+    margin-top:10px;
+    padding: 10px;
+    border:4px solid transparent;
+    border-radius: 0;
+    background: var(--main-color);
+    width: 100%;
+    color: #fff;
 }
