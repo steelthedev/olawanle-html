@@ -109,6 +109,14 @@ body{
     background: var(--main-color);
 }
 
+
+@media screen and (max-width:480px) {
+    .hero{
+        background-image: url('/img/hero.jpg') !important;
+        background-size: cover;
+    }
+}
+
 /* about */
 
 .about{
