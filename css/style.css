@@ -119,7 +119,7 @@ body{
     transform: scale(1.03);
 }
 
-.about h2 , .services h2 , .book-display h2 , .contact h2 , .book h2 , .about-author h2 , .blog-page h2{
+.about h2 , .services h2 , .book-display h2 , .contact h2 , .book h2 , .about-author h2 , .blog-page h2 , .login h1{
     padding: 10px;
     color: var(--main-color);
     font-size: 2.5rem;
@@ -471,3 +471,37 @@ body{
     padding: 60px 0;
 }
 
+/*login btn*/
+
+
+.login{
+    padding: 60px 0;
+}
+
+.login form .form-group{
+    padding: 10px;
+}
+
+.login form label{
+    font-size: 1.1rem;
+    color: #111;
+    font-weight: bold;
+}
+
+.login form .form-control{
+    border-radius: 0;
+    background: transparent;
+}
+
+.login .l-btn{
+    padding: 20px;
+    color: #fff;
+    background: var(--main-color);
+    border-radius: 0;
+    border: 3px solid transparent;
+}
+
+.login .l-btn:hover{
+background:#111 ;
+color: #fff;
+}
