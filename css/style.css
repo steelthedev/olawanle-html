@@ -119,7 +119,7 @@ body{
     transform: scale(1.03);
 }
 
-.about h2 , .services h2 , .book-display h2 , .contact h2 , .book h2{
+.about h2 , .services h2 , .book-display h2 , .contact h2 , .book h2 , .about-author h2 , .blog-page h2{
     padding: 10px;
     color: var(--main-color);
     font-size: 2.5rem;
@@ -263,6 +263,105 @@ body{
 
 }
 
+.blog .blog-single img{
+    transition: .5s;
+}
+
+
+.blog .blog-single img:hover{
+    transform: scale(1.03);
+}
+
+.pull-right{
+    color: #111;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+
+.pull-right:hover{
+    color: #111;
+    text-decoration: none;
+}
+
+
+
+/* blog details */
+
+
+
+.blog-details{
+    padding: 60px 0;
+}
+
+.blog-details .blog-single{
+    padding: 7px;
+}
+
+.blog-details .blog-single .b-title{
+    padding: 10px;
+   font-weight: bolder;
+   font-size: 2.5rem;
+   color: #111;
+}
+
+.blog-details .blog-single .date{
+    padding: 7px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.blog-details .blog-single .words{
+    padding: 2px;
+}
+
+.blog-details .blog-single .words p{
+    font-size: 1.5rem;
+    color: #111;
+
+}
+
+.blog-details .blog-single a{
+    color: #111;
+    margin-bottom: 4px solid #111;
+    font-size: 1.1rem;
+    text-decoration: none;
+
+}
+
+.blog-details .blog-single .b-img{
+    width: 70%;
+}
+
+.blog-details .comments{
+    padding: 15px;
+}
+
+.blog-details form label{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #111;
+}
+
+.blog-details form .cb-btn{
+    padding: 20px;
+    color: #fff;
+    background: var(--main-color);
+    border: 3px solid transparent;
+    border-radius: 0;
+}
+
+.blog-details .comments h3{
+    color: var(--main-color);
+}
+
+.blog-details .comments .comment-line{
+    padding: 10px;
+}
+
+.blog-details .comments .comment-line p{
+    font-size:1.2rem;
+}
 /*contact*/
 
 
@@ -337,3 +436,38 @@ body{
     width: 100%;
     color: #fff;
 }
+
+
+/*contact page*/
+
+.contact form .form-group{
+    padding: 24px;
+}
+
+
+.contact form .form-control{
+    border: 1px solid #111;
+    background: transparent;
+    border-radius: 0;
+
+}
+
+.contact form label{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/*author*/
+
+
+.about-author{
+    padding: 60px 0;
+}
+
+
+/*blog-page*/
+
+.blog-page{
+    padding: 60px 0;
+}
+
