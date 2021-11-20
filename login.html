@@ -1,98 +1,108 @@
-{% load static %}
-
 <!DOCTYPE html>
 <html>
- <head>
-  <title>
-   Davies Adventure
-  </title>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
-  <link href="{% static 'lib/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet"/>
-  <link href="{% static 'lib/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet"/>
-  <link href="{% static 'css/style.css' %}" rel="stylesheet"/>
-  <link href="{% static 'css//aos/aos.css' %}" rel="stylesheet"/>
- </head>
- <body>
-  <nav class="navbar nav-bar navbar-expand-lg fixed-top">
-   <a class="navbar-brand brand" href="">
-    Davies Adventure
-   </a>
-   <button aria-control="" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#toggleMobileMenu" data-toggle="collapse" shadow-nones="#toggleMobileMenu" type="button">
-    <span class="oi oi-menu">
-     <i class="fa fa-bars">
-     </i>
-    </span>
-   </button>
-   <div class="collapse navbar-collapse" id="toggleMobileMenu">
-    <ul class="navbar-nav ml-auto text-center ms-auto">
-     <li class="nav-item">
-      <a class="nav-link" href="./index.html">
-       Home
-      </a>
-     </li>
-     <li class="nav-item">
-      <a class="nav-link" href="#about">
-       Books
-      </a>
-     </li>
-     <li class="nav-item">
-      <a class="nav-link" href="./services.html">
-       About Author
-      </a>
-     </li>
-     <li class="nav-item">
-      <a class="nav-link" href="./contact.html">
-       Contact Us
-      </a>
-     </li>
-     <li class="nav-item">
-      <a class="nav-link" href="./login.html">
-       Login
-      </a>
-     </li>
-    </ul>
-   </div>
-  </nav>
-  <section class="login">
-   <div class="container">
-    <div class="row justify-content-center mt-5">
-     <div class="col-md-12 col-lg-8 mt-5 pt-5">
-      <form action="" method="POST">
-       <div class="row justify-content-center">
-        <div class="col-md-12 col-lg-8">
-         <h1 class="mb-3">
-          Login
-         </h1>
-         <div class="form-group">
-          <label for="username">
-           Username
-          </label>
-          <input class="form-control shadow-none" name="username" required="" type="text"/>
-         </div>
-         <div class="form-group">
-          <label for="password">
-           Password
-          </label>
-          <input class="form-control shadow-none" name="password" required="" type="password"/>
-         </div>
-         <button class="btn-outline-white shadow-none btn l-btn" type="submit">
-          Login
-         </button>
-        </div>
-       </div>
-      </form>
-     </div>
-    </div>
-   </div>
-  </section>
-  <script src="{% static 'js/jquery.min.js' %}">
-  </script>
-  <script src="{% static 'css//aos/aos.js' %}">
-  </script>
-  <script src="{% static 'js/jquery-3.2.1.slim.min.js' %}">
-  </script>
-  <script src="{% static 'js/bootstrap.min.js' %}">
-  </script>
- </body>
+    <head>
+        <title>
+            Davies Adventure
+        </title>
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css//aos/aos.css">
+    </head>
+    <body>
+
+        <nav class="navbar nav-bar navbar-expand-lg fixed-top">
+            <a href="" class="navbar-brand brand">Davies Adventure</a>
+
+            <button class="navbar-toggler" type="button"
+			data-toggle="collapse"
+			data-target="#toggleMobileMenu"
+			aria-control shadow-nones="#toggleMobileMenu"
+			aria-expanded="false"
+			aria-label="Toggle navigation">
+				<span class="oi oi-menu"><i class="fa fa-bars"></i></span>
+			</button>
+            <div class="collapse navbar-collapse " id="toggleMobileMenu">
+            <ul class="navbar-nav ml-auto text-center ms-auto">
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Books</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./services.html" class="nav-link">About Author</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./contact.html" class="nav-link">Contact Us</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./login.html" class="nav-link">Login</a>
+                </li>	
+                </ul>
+            </div>
+
+        </nav>
+
+
+
+        <section class="login">
+            <div class="container">
+                <div class="row justify-content-center mt-5">
+                   <div class="col-md-12 col-lg-8 mt-5 pt-5">
+                    <form action="" method="POST">
+                        <div class="row justify-content-center">
+                            <div class="col-md-12 col-lg-8">
+                                <h1 class="mb-3">
+                                    Login
+                                </h1>
+                          
+                          
+
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="text" required name="username" class="form-control shadow-none">
+                            </div>
+                        
+
+                        
+                        
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" required name="password" class="form-control shadow-none">
+                            </div>
+                
+
+                        
+                        
+                            <button class="btn-outline-white shadow-none btn l-btn" type="submit">Login</button>
+                        
+                            </div>
+
+                                </div>
+                       
+                    </form>
+                   </div>
+                       
+                        
+                </div>
+
+           
+        </section>
+
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="css//aos/aos.js"></script>
+        <script src="js/jquery-3.2.1.slim.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
 </html>
